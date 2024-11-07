@@ -25,3 +25,7 @@ for k in range(0,n):
 print (s_n)
 
 plt.plot(s_n)
+
+
+
+
