@@ -17,4 +17,4 @@ def vokon_zählen(wort):
     print (f"es gibt {len(vokale)} vokale und {len(wort_buchstaben)-len (vokale)}Konstanten.")
    # return [len(wort_buchstaben), len(vokale)]
   
-vokon_zählen(wort)
+vokon_zählen(wort="hallo")
