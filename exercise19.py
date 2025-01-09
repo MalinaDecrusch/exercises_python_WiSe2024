@@ -29,3 +29,4 @@ df_final = pd.merge(
     merged_data_AGM, msft_data, on ='Date', how = "outer")
 df_finale = df_final.reset_index(drop=True)
 df_final.head() 
+df_final.to_csv('data/stocks.csv', sep = ',', decimal ='.')
